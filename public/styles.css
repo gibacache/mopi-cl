@@ -148,26 +148,26 @@ header.scrolled .nav-links a {
 
 .nav-links li:nth-child(1) a::before,
 #modelo .section-title {
-    background: url('images/stroke-1.png') center/contain no-repeat;
+    background: url('/images/stroke-1.png') center/contain no-repeat;
 }
 
 .nav-links li:nth-child(2) a::before,
 #que-hago .section-title {
-    background: url('images/stroke-2.png') center/contain no-repeat;
+    background: url('/images/stroke-2.png') center/contain no-repeat;
 }
 
 .nav-links li:nth-child(3) a::before,
 #como .section-title {
-    background: url('images/stroke-3.png') center/contain no-repeat;
+    background: url('/images/stroke-3.png') center/contain no-repeat;
 }
 
 .nav-links li:nth-child(4) a::before,
 #sobre-mi .section-title {
-    background: url('images/stroke-4.png') center/contain no-repeat;
+    background: url('/images/stroke-4.png') center/contain no-repeat;
 }
 
 .nav-links li:nth-child(5) a::before {
-    background: url('images/stroke-1.png') center/contain no-repeat;
+    background: url('/images/stroke-1.png') center/contain no-repeat;
     filter: hue-rotate(300deg) brightness(1.1);
 }
 
@@ -196,7 +196,7 @@ header.scrolled .burger div {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('images/hero-image.jpg') center/cover;
+    background: url('/images/hero-image.jpg') center/cover;
     background-position: 68% 15%;
     display: flex;
     align-items: flex-end;
@@ -520,13 +520,13 @@ footer {
     box-shadow: 0 2px 8px 0 rgba(0,0,0,0.04);
 }
 .conoce-circle-1 {
-    background: url('images/circle-1.png') center/cover no-repeat;
+    background: url('/images/circle-1.png') center/cover no-repeat;
 }
 .conoce-circle-2 {
-    background: url('images/circle-2.png') center/cover no-repeat;
+    background: url('/images/circle-2.png') center/cover no-repeat;
 }
 .conoce-circle-3 {
-    background: url('images/circle-3.png') center/cover no-repeat;
+    background: url('/images/circle-3.png') center/cover no-repeat;
 }
 
 @media (max-width: 900px) {
