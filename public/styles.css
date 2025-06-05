@@ -14,7 +14,7 @@
 
 :root {
     --primary-color: #2c3e50;
-    --secondary-color: #3498db;
+    --secondary-color: #d97d12;
     --accent-color: #e74c3c;
     --text-color: #333;
     --light-bg: #f8f9fa;
@@ -74,6 +74,13 @@ nav {
     color: var(--white);
     transition: all 0.3s ease;
     margin-bottom: -15px;
+    text-decoration: none;
+}
+
+.logo-font {
+    font-family: 'Typogama-Ahsing', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 header.scrolled .logo {
@@ -95,7 +102,7 @@ header.scrolled .logo {
 }
 
 header.scrolled .navbar-text {
-    color: var(--primary-color);
+    color: var(--text-color);
     font-size: 0.65rem;
     display: block;
 }
@@ -111,7 +118,7 @@ header.scrolled .navbar-text {
 
 .nav-links a {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--white);
     font-weight: 500;
     transition: color 0.3s ease;
     padding: 10px 10px;
@@ -128,7 +135,7 @@ header.scrolled .nav-links a {
 
 .nav-links a.nav-link-active {
     position: relative;
-    color: var(--primary-color);
+    color: var(--text-color);
     z-index: 1;
 }
 
@@ -228,7 +235,7 @@ header.scrolled .burger div {
 
 /* Generic Layout Classes */
 .section {
-    padding: 8rem 5%;
+    padding: 6rem 5%;
     max-width: 1200px;
     /* max-width: max(1200px, 90%); */
     margin: 0 auto;
@@ -241,7 +248,7 @@ header.scrolled .burger div {
 /* Generic Text Classes */
 .text-large {
     font-size: 1.8rem;
-    color: var(--primary-color);
+    color: var(--text-color);
     margin-bottom: 2rem;
     font-weight: 500;
     line-height: 1.4;
@@ -267,7 +274,7 @@ header.scrolled .burger div {
 .text-large {
     font-size: 2.2rem;
     line-height: 1.4;
-    color: var(--primary-color);
+    color: var(--text-color);
     font-weight: 300;
 }
 
@@ -304,24 +311,11 @@ header.scrolled .burger div {
     background-color: #2980b9;
 }
 
-/* Generic Background Classes */
-.bg-light {
-    background-color: var(--light-bg);
-}
-
-.bg-white {
-    background-color: var(--white);
-}
-
-.bg-primary {
-    background-color: var(--primary-color);
-}
-
 /* Generic Component Classes */
 .section-title {
     text-align: center;
     margin-bottom: 3rem;
-    color: var(--primary-color);
+    color: var(--text-color);
     height: 100px;
     display: flex;
     align-items: center;
@@ -474,6 +468,10 @@ footer {
 /* Animation for mobile menu */
 .nav-active {
     display: flex;
+}
+
+.nav-active.nav-links a {
+    color: var(--text-color);
 }
 
 .conoce-mopi-grid {
