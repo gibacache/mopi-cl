@@ -111,7 +111,7 @@ header.scrolled .navbar-text {
 
 .nav-links a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--text-color);
     font-weight: 500;
     transition: color 0.3s ease;
     padding: 10px 10px;
@@ -168,7 +168,7 @@ header.scrolled .nav-links a {
 
 .nav-links li:nth-child(5) a::before {
     background: url('/images/stroke-1.png') center/contain no-repeat;
-    filter: hue-rotate(300deg) brightness(1.1);
+    filter: hue-rotate(311deg) brightness(1.1);
 }
 
 .nav-links a.nav-link-active::before {
